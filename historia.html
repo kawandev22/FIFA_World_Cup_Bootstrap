@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="img/favcon/copa-do-mundo.png" type="image/x-icon">
 </head>
 <body>
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-copa sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><i class="bi bi-trophy-fill me-2"></i>COPA 2026</a>
+      <a class="navbar-brand" href="index.html"><i class="bi bi-trophy-fill me-2"></i>FIFA 2026</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,8 +28,16 @@
           <li class="nav-item"><a class="nav-link" href="estadios.html">Estádios</a></li>
           <li class="nav-item"><a class="nav-link" href="mascotes.html">Mascotes</a></li>
           <li class="nav-item"><a class="nav-link" href="curiosidades.html">Curiosidades</a></li>
-          <li class="nav-item"><a class="nav-link" href="ranking.html">Ranking</a></li>
-          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="copaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Copa 2026
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="copaDropdown">
+              <li><a class="dropdown-item" href="fase-de-grupos.html">Fase de Grupos</a></li>
+              <li><a class="dropdown-item" href="selecoes.html">Seleções</a></li>
+              <li><a class="dropdown-item" href="estatisticas.html">Estatísticas</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
